@@ -10,7 +10,7 @@ namespace GitHubDemoAPI.Controllers
         [HttpGet]
         public string Get()
         {
-            return "Hello world";
+            return "Hello demo";
         }
     }
 }
