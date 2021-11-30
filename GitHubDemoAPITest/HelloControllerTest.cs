@@ -11,7 +11,7 @@ namespace GitHubDemoAPITest
             var controller = new HelloController();
             var result = controller.Get();
 
-            Assert.Equal("Hello world", result);
+            Assert.Equal("Hello demo", result);
         }
     }
 }
